@@ -2,6 +2,7 @@
 
 This is a custom version of Vox OS found here: https://github.com/davidebangelista/Goguardian-bypasser
 The ORIGINAL poster was found here (link is still broken): https://www.reddit.com/r/goguardian/comments/i8tmnr/vox_os/
+
 How to use:
 if you want to install this locally (on your pc/chromebook)
 download everything as a ZIP and then extract.
