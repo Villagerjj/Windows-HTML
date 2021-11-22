@@ -1,0 +1,58 @@
+<body id="b">
+<div id="svg">
+
+  
+<style>
+body {
+  background-image: url('windows.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<title>Windows HTML</title>
+<iframe  allowfullscreen=true  width="0px" sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-modals allow-forms" height="1px" frameborder="0" id="fr" ></iframe>
+</div>
+
+<script src="login/start/Apps/About_Vox/Info/SysInfo.js"></script>
+<script>
+
+var dia = document.getElementById("fr");
+var svg = document.getElementById("svg");
+
+    function start()
+    {
+      if(PassProtected == "Yes" ){
+
+            dia.src = "login/login.html";
+         dia.requestFullscreen();
+
+    }
+else {
+   
+             dia.src = "login/start/start.html";
+               dia.requestFullscreen();
+}
+}
+  
+
+</script>
+
+<button class="b" onclick="start()">Start</button>
+<style>
+
+
+.b {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+color : black;
+  border-color : black;
+}
+
+#b {background-color: white;}
+
+#svg {background-color: white;}
+</style>
+</body>
